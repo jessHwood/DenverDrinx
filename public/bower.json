@@ -1,0 +1,17 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/CamB17/DenverDrinx",
+  "authors": [
+    "CamB17"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
