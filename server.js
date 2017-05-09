@@ -5,6 +5,8 @@ var router = require('./server/config/routes.js');
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+require('dotenv').config();
+
 app.use(router);
 app.use(express.static('public'));
 app.use(function(req, res){
