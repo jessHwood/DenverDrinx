@@ -8,3 +8,7 @@ module.exports.Sequelize = Sequelize;
 module.exports.sequelize = sequelize;
 
 var Bar = sequelize.import('./bar');
+
+module.exports.models = {
+	Bar : Bar
+};
