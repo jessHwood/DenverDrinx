@@ -2,7 +2,7 @@
   "name": "DenverDrinx",
   "version": "1.0.0",
   "description": "5/9/17 \tNate- creating server files and outline/ text template for our Postgres DB",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/ntutchton/DenverDrinx#readme",
   "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.1",
+    "dotenv": "^2.0.0",
     "express": "^4.15.2",
+    "moment": "^2.11.1",
     "pg": "^6.1.5",
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.30.4"

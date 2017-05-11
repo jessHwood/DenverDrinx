@@ -11,7 +11,8 @@ module.exports = function(sequelize, Sequelize){
 		address			: Sequelize.STRING,
 		name			: Sequelize.STRING,
 		drinkSpecials	: Sequelize.STRING,
-		foodSpecials	: Sequelize.STRING
+		foodSpecials	: Sequelize.STRING, 
+		image			: Sequelize.STRING,
 	});
 
 	return model;
