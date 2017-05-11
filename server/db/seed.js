@@ -151,15 +151,7 @@ var barCreate = function(bar){
 		website 		: bar.website
 	});
 };
-function makeUser(){
-	return DB.User.create({
-      displayName: "Cthulhu",
-      username: "nate",
-      email: "nate@nate",
-      password: "nate"
-	});
-}
-makeUser();
+
 barArray.forEach(function(bar){
 		barCreate(bar);
 	});
