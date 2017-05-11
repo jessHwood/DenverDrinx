@@ -1,5 +1,6 @@
 //Connect
 var Sequelize = require('sequelize');
+var bcrypt = require('bcryptjs');
 
 // require('dotenv').config();
 var sequelize = new Sequelize('postgres://jesswood@localhost:5432/denverdrinx');

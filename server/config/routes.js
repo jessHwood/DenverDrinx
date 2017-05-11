@@ -12,5 +12,4 @@ router.get('/', function(req, res){
 //bar routes
 router.get('/api/bars/index', barController.index);
 
-
 module.exports = router;
