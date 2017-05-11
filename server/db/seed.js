@@ -24,24 +24,24 @@ var barArray = [
 	
 	//RiNo HH
 	{
-		day 			: [ 0, 1, 2, 3, 4, 5, 6 ],
-		hours 			: [ [ 17 , 19 ],[17 , 19], [17 , 20], [17 , 19], [17 , 19], [17 , 19], [17 , 19] ],
-		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ] ],
-		address			: "3033 Brighton Blvd",
+		day 			: [ 1, 2, 3, 4, 5],
+		hours 			: [ [17 , 18], [17 , 18], [17 , 18], [17 , 18], [17 , 18] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ] ],
+		address			: "3033 Brighton Blvd, Denver, CO, 80216",
 		name			: "Mister Tuna",
 		drinkSpecials	: "$3 select beers, $5 select wines and well drinks, and a cocktail of the week for $6",
-		foodSpecials	: "n/a",
-		website			: "n/a"
+		foodSpecials	: null,
+		website			: "https://www.mistertuna.com/"
 	},
 	//This has special late nights onfri-sat
 	{
 		day 			: [ 0, 2, 3, 4, 5, 6 ],
 		hours 			: [ [ 15 , 18 ],[15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18] ],
 		minutes 		: [ [ 0 , 0 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
-		address			: "2191 Arapahoe St.",
+		address			: "2191 Arapahoe St, Denver, CO, 80205",
 		name			: "Lobby",
 		drinkSpecials	: "$3 Mimosas and domestic beers, $4 craft beers, and 20% off most draft beers, $2 off specialty cocktails, $4 wells and Bellinis, $5 Cocktail of the Day and house wines, $6 Sangria, $6 beer and a shot, $3 select shots, 20% off beer flights, and $12 pitchers of house Margaritas, Long Island Ice Teas and John Dalys.",
-		foodSpecials	: "n/a",
+		foodSpecials	: null,
 		website			: "http://www.thelobbydenver.com/"
 	},
 	{
@@ -63,7 +63,8 @@ var barArray = [
 		name			: "Nocturne",
 		drinkSpecials	: "$7 classic cocktails and Rose' of the Day.",
 		foodSpecials	: "half-priced oysters.",
-		website			: "n/a"
+		image			: "image",
+		website			: "http://www.nocturnejazz.com/"
 	},
 	{
 		day 			: [ 4, 5, 6 ],
@@ -126,14 +127,24 @@ var barArray = [
 		website			: "http://workandclassdenver.com/"
 	},
 	{
-		day 			: [ 0, 2, 3, 4, 5, 6 ],
+		day 			: [ 1, 2, 3, 4, 5 ],
 		hours 			: [ [16 , 18] ],
 		minutes 		: [ [ 0 , 0 ] ],
 		address			: "1309 26th Street",
 		name			: "First Draft",
-		drinkSpecials	: "$9 Barrel-Aged Cocktails, $6 House Cocktails, $4 House Red/ White Wine, $7 (Pent) House Wine, $4 Draft Beers",
-		foodSpecials	: "$5 Chile Cheese Fries, $6 Chipotle Chicken Pot Pie, $10 Tamarind Pork Ribs, $7 Vegetarian Chile Relleno, $8 Bacon-Wrapped Asparagus & Grits, $6 Tempura Broccoli",
-		website			: "http://workandclassdenver.com/"
+		drinkSpecials	:  null,
+		foodSpecials	: "$7 Brasserie Board, $3 Fries, $5 Deviled Eggs, $6 Fresh Baked Pretzels, $7 Tempura Chicken Wings, $5 Brisket Slider, $5 Colorado Waygu Beef Burger Slider",
+		website			: "http://www.firstdraftdenver.com/"
+	},
+		{
+		day 			: [ 1, 2, 3, 4, 5 ],
+		hours 			: [ [16 , 18] ],
+		minutes 		: [ [ 0 , 0 ] ],
+		address			: "2030 W 30th Ave, Denver, CO 80211",
+		name			: "Linger",
+		drinkSpecials	:  null,
+		foodSpecials	: "$7 Brasserie Board, $3 Fries, $5 Deviled Eggs, $6 Fresh Baked Pretzels, $7 Tempura Chicken Wings, $5 Brisket Slider, $5 Colorado Waygu Beef Burger Slider",
+		website			: "http://www.firstdraftdenver.com/"
 	},
 
 ];
