@@ -10,8 +10,8 @@ module.exports = function(sequelize, Sequelize){
 		minutes 		: Sequelize.ARRAY( Sequelize.ARRAY( Sequelize.INTEGER )),
 		address			: Sequelize.STRING,
 		name			: Sequelize.STRING,
-		drinkSpecials	: Sequelize.STRING,
-		foodSpecials	: Sequelize.STRING,
+		drinkSpecials	: Sequelize.STRING(1000),
+		foodSpecials	: Sequelize.STRING(1000),
 		image           : Sequelize.STRING,
 		website			: Sequelize.STRING
 	});

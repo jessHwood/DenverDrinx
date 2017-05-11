@@ -24,15 +24,6 @@ var barArray = [
 	
 	//RiNo HH
 	{
-		day 			: [ 4 ],
-		hours 			: [ [ 14 , 17 ] ],
-		minutes 		: [ [ 0 , 30 ] ],
-		address			: "1234 Seseme Street",
-		name			: "Big Bird's Booze House",
-		drinkSpecials	: "$1.00 Double-Shots",
-		foodSpecials	: "$0.50 Corn-dogs"
-	},
-	{
 		day 			: [ 0, 1, 2, 3, 4, 5, 6 ],
 		hours 			: [ [ 17 , 19 ],[17 , 19], [17 , 20], [17 , 19], [17 , 19], [17 , 19], [17 , 19] ],
 		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ] ],
@@ -156,7 +147,8 @@ var barCreate = function(bar){
 		address 		: bar.address,
 		name 			: bar.name,
 		drinkSpecials 	: bar.drinkSpecials,
-		foodSpecials 	: bar.foodSpecials
+		foodSpecials 	: bar.foodSpecials,
+		website 		: bar.website
 	});
 };
 

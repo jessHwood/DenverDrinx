@@ -2,7 +2,7 @@
 var Sequelize = require('sequelize');
 
 require('dotenv').config();
-var sequelize = new Sequelize('postgres://' + process.env.username + '@localhost:5432/denverdrinx');
+var sequelize = new Sequelize('postgres://' + process.env.USERNAME + '@localhost:5432/denverdrinx');
 
 //Export models and Sequelize for seed and dbSetup
 module.exports.Sequelize = Sequelize;
