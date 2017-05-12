@@ -11,9 +11,13 @@ var template = {
 	hours 			: [ [ /*starting hour, 0-23 , ending hour 0-23*/ ] ],
 	minutes 		: [ [ /*minutes added to first hour 0-59 , minutes added to second hour 0-59*/ ] ],
 	address			: /*Address as a string*/ "",
+	phone			: /*address as a string*/"",
 	name			: /*name as a string*/ "",
 	drinkSpecials	: /*drink specials as a string*/ "",
-	foodSpecials	: /*food specials as a string*/ ""
+	foodSpecials	: /*food specials as a string*/ "",
+	image 			: "",
+	description 	: "",
+	website 		: "",
 };
 
 ////////////////////////////////////////////////////////////////////////
@@ -183,16 +187,96 @@ var barArray = [
 	},
 		{
 		day 			: [ 1, 2, 3, 4, 5 ],
-		hours 			: [ [16 , 18] ],
-		minutes 		: [ [ 0 , 0 ] ],
+		hours 			: [ [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18] ],
+		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
 		address			: "2030 W 30th Ave, Denver, CO 80211",
+		phone			: "(303) 993-3120",
 		name			: "Linger",
-		drinkSpecials	:  null,
-		foodSpecials	: "",
-		image  			: 
-		description		:
-		website			: ""
+		drinkSpecials	:  "$4 Draft Beers, $6 Wine, $4 Premium Well Drinks, $5 Cocktails",
+		foodSpecials	: "$5 Food Specials, menu changes monthly",
+		image  			: "https://s-media-cache-ak0.pinimg.com/originals/7d/3a/50/7d3a5040409bcc0bfa5c1720582d6796.jpg",
+		description		: "This old mortuary is now a lively restaurant with a rooftop lounge & global small plates.",
+		website			: "http://lingerdenver.com/"
 	},
+	{
+		day 			: [ 3, 4, 5, 6 ],
+		hours 			: [ [14 , 18], [14 , 18], [14 , 18], [14 , 18] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ] ],
+		address			: "1691 Central St, Denver, CO 80211",
+		phone			: "(303) 477-4582",
+		name			: "Central Bistro",
+		drinkSpecials	:  "$1 off all Draft Beers, $3 Coors Light, $5 Wine, $5 Cocktails",
+		foodSpecials	: "Market Oysters 1/2 off, $3 Chicken Slider, $5 Tator Tots, $3 Baja Shrimp Tacos, $7 Chicken Wings, $9 Grilled Lamb Ribs, $9 Spanish Mussels, $10 Caramelized Brussels Sprouts, $7 Tuscan Green Salad, $14 Boxcar Burger and Beverage, $6 Artisan Cheese",
+		image  			: "https://media-cdn.tripadvisor.com/media/photo-s/03/07/ce/f5/central-bistro-and-bar.jpg",
+		description		: "Mod hot spot for creative American plates from an open kitchen, craft cocktails & a big patio.",
+		website			: "http://www.centralbistrobar.com/"
+	},
+		{
+		day 			: [ 0, 2 ],
+		hours 			: [ [14 , 23], [14 , 23] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ] ],
+		address			: "1691 Central St, Denver, CO 80211",
+		phone			: "(303) 477-4582",
+		name			: "Central Bistro",
+		drinkSpecials	:  "$1 off all Draft Beers, $3 Coors Light, $5 Wine, $5 Cocktails",
+		foodSpecials	: "Market Oysters 1/2 off, $3 Chicken Slider, $5 Tator Tots, $3 Baja Shrimp Tacos, $7 Chicken Wings, $9 Grilled Lamb Ribs, $9 Spanish Mussels, $10 Caramelized Brussels Sprouts, $7 Tuscan Green Salad, $14 Boxcar Burger and Beverage, $6 Artisan Cheese",
+		image  			: "https://media-cdn.tripadvisor.com/media/photo-s/03/07/ce/f5/central-bistro-and-bar.jpg",
+		description		: "Mod hot spot for creative American plates from an open kitchen, craft cocktails & a big patio.",
+		website			: "http://www.centralbistrobar.com/"
+	},
+		{
+		day 			: [ 3, 4, 5],
+		hours 			: [ [15 , 18], [15 , 18], [15 , 18] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [0, 0] ],
+		address			: "3316 Tejon St, Denver, CO 80211",
+		phone			: "(720) 420-0622",
+		name			: "Old Major",
+		drinkSpecials	: "$7.50 Cocktails, $7 Wine, $6 Draft Beers, $ Beer and a shot of bourbon",
+		foodSpecials	: "$4 Pork Fat French Fries, $6 Seafood Fritters of the Day, $9 Pork Burger, $5 Sausage plate, $13 Charcuterie Plate, $2.75 each oysters of the day, $7 Waygu Hot Dog, $7 Rib Tips",
+		image  			: "http://www.confluence-denver.com/galleries/Features/2013/Issue_46/fina_art_02.jpg",
+		description		: "Rustic-chic restaurant specializing in elevated dishes from sustainable sources & top-shelf drinks.",
+		website			: "http://oldmajordenver.com/menu/"
+	},
+	{
+		day 			: [ 0, 6],
+		hours 			: [ [16 , 18], [16 , 18] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ] ],
+		address			: "3316 Tejon St, Denver, CO 80211",
+		phone			: "(720) 420-0622",
+		name			: "Old Major",
+		drinkSpecials	: "$7.50 Cocktails, $7 Wine, $6 Draft Beers, $ Beer and a shot of bourbon",
+		foodSpecials	: "$4 Pork Fat French Fries, $6 Seafood Fritters of the Day, $9 Pork Burger, $5 Sausage plate, $13 Charcuterie Plate, $2.75 each oysters of the day, $7 Waygu Hot Dog, $7 Rib Tips",
+		image  			: "http://www.confluence-denver.com/galleries/Features/2013/Issue_46/fina_art_02.jpg",
+		description		: "Rustic-chic restaurant specializing in elevated dishes from sustainable sources & top-shelf drinks.",
+		website			: "http://oldmajordenver.com/menu/"
+	},
+		{
+		day 			: [ 0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [11 , 17], [11 , 17], [11 , 17], [11 , 17], [11 , 17], [11 , 17], [11 , 17] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ] ],
+		address			: "2715 17th St, Denver, CO 80211",
+		phone			: "(303) 433-6363",
+		name			: "Postino LoHi",
+		drinkSpecials	: "$5 wine by the glass, $5 pitchers of beer",
+		foodSpecials	:  null,
+		image  			: "http://www.postinowinecafe.com/img/desktop-hero.jpg",
+		description		: "Italian spot serving a wide selection of bruschetta & wine in rustic-chic digs with outdoor seating.",
+		website			: "http://www.postinowinecafe.com/"
+	},
+			{
+		day 			: [ 0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18] ],
+		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
+		address			: "2532 15th St, Denver, CO 80211",
+		phone			: "(303) 433-7001",
+		name			: "Forest Room 5",
+		drinkSpecials	: "$5 Cocktail specials, $1 off all other drinks",
+		foodSpecials	:  "$5 Calamari, $5 Fish Tacos, $ Herb and Truffle Fries, $5 Ahi Tuna, $5 Cheese plate, $5 Manilla Steamed Clams",
+		image  			: "https://cdn0.vox-cdn.com/uploads/chorus_image/image/46999572/firepits.0.0.jpg",
+		description		: "Hip night spot with an artsy, rustic interior & an outdoor area with fire pits & a flowing creek.",
+		website			: "http://www.forestroom5.com/"
+	},
+
 
 ];
 
@@ -203,9 +287,12 @@ var barCreate = function(bar){
 		hours 			: bar.hours,
 		minutes 		: bar.minutes,
 		address 		: bar.address,
+		phone 			: bar. phone,
 		name 			: bar.name,
 		drinkSpecials 	: bar.drinkSpecials,
 		foodSpecials 	: bar.foodSpecials,
+		image  			: bar.image,
+		description 	: bar.description,
 		website 		: bar.website
 	});
 };
