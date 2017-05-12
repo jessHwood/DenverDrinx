@@ -76,7 +76,7 @@ var barArray = [
 		phone       	: "303-295-3333",
 		name			: "Nocturne",
 		drinkSpecials	: "$7 classic cocktails and Rose' of the Day.",
-		foodSpecials	: "half-priced oysters.",
+		foodSpecials	: "Half-priced oysters.",
 		image			: "https://cdn0.vox-cdn.com/uploads/chorus_image/image/46614530/Nocturne_6.0.0.0.jpg",
 		description 	: "Bi-level lounge & eatery serving up eclectic mix of small plates & cocktails amid live jazz music.",
 		website			: "http://www.nocturnejazz.com/"
@@ -89,7 +89,7 @@ var barArray = [
 		phone   		: "303-295-3333",
 		name			: "Nocturne",
 		drinkSpecials	: "$7 classic cocktails and Rose' of the Day.",
-		foodSpecials	: "half-priced oysters.",
+		foodSpecials	: "Half-priced oysters.",
 		image			: "https://cdn0.vox-cdn.com/uploads/chorus_image/image/46614530/Nocturne_6.0.0.0.jpg",
 		description 	: "Bi-level lounge & eatery serving up eclectic mix of small plates & cocktails amid live jazz music.",
 		website			: "http://www.nocturnejazz.com/"
@@ -263,7 +263,7 @@ var barArray = [
 		description		: "Italian spot serving a wide selection of bruschetta & wine in rustic-chic digs with outdoor seating.",
 		website			: "http://www.postinowinecafe.com/"
 	},
-			{
+		{
 		day 			: [ 0, 1, 2, 3, 4, 5, 6],
 		hours 			: [ [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18] ],
 		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
@@ -276,6 +276,177 @@ var barArray = [
 		description		: "Hip night spot with an artsy, rustic interior & an outdoor area with fire pits & a flowing creek.",
 		website			: "http://www.forestroom5.com/"
 	},
+		{
+		day 			: [  1, 2, 3, 4, 5 ],
+		hours 			: [ [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18] ],
+		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
+		address			: "1600 W 33rd Ave, Denver, CO 80211",
+		phone			: "(303) 993-4200",
+		name			: "Root Down",
+		drinkSpecials	: "(In Bar Only), $5 Cocktail specials, $6 Wine, $4 Draft Beers ",
+		foodSpecials	:  "$5 Jerk Duck Wings, $5 Seared Arepa, $4 Sweet Potato Fries, $4 Veggie Burger Slider, $5 Beef Brisket Tacos, $5 CO Lamb Slider, $5 Roasted Baby Beets",
+		image  			: "http://www.rootdowndenver.com/wp-content/gallery/restaurant3/01.jpg",
+		description		: "A converted filling station is an artful, high-energy venue for creative American small plates.",
+		website			: "http://www.rootdowndenver.com/"
+	},
+		{
+		day 			: [  0, 1, 2, 3, 4, 5, 6 ],
+		hours 			: [ [17 , 18], [17 , 18], [17 , 18], [17 , 18], [17 , 18] ],
+		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
+		address			: "2413 W 32nd Ave, Denver, CO 80211",
+		phone			: "(303) 477-4141",
+		name			: "Duo",
+		drinkSpecials	: "$6 Select Wine, $6 Speciality Cocktails, $2 Select Beer, $2 Well Cocktails ",
+		foodSpecials	:  "$6 Apps, Soups, and Salads",
+		image  			: "http://farm9.staticflickr.com/8038/8051988781_5ee7b581a9.jpg",
+		description		: "Creative local farm-to-fork New American cuisine in a warm, rustic, continually packed space.",
+		website			: "http://www.duodenver.com/"
+	},
+		{
+		day 			: [  0, 2, 3, 4, 5, 6 ],
+		hours 			: [ [17 , 18], [17 , 18], [17 , 18], [17 , 18], [17 , 18], [17 , 18] ],
+		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ] ],
+		address			: "2639 W 32nd Ave, Denver, CO 80211",
+		phone			: "(303) 433-0949",
+		name			: "Spuntino",
+		drinkSpecials	: "(In the Bar Only), $5 Select Wines, $5 Speciality Cocktails, $1 off all beers ",
+		foodSpecials	:  "$5 Antipasti, $4 House Marinated Olives, $2.50 Pork Meatballs, $2 Arancini, $4 Porchetta Slider, $9 Spuntino Picnic Basket",
+		image  			: "https://static1.squarespace.com/static/5208f480e4b03ad27ab70aa3/547ff92ce4b0f8df179de603/547ffaa6e4b0809df8564013/1457985883964/Spuntino-Denver-Fin-Art-Co-4.JPG?format=500w",
+		description		: "Charming restaurant featuring classic Italian dishes with a seasonal bent in a rustic environment.",
+		website			: "http://www.spuntinodenver.com/#/home"
+	},
+		{
+		day 			: [1],
+		hours 			: [ [16 , 23] ],
+		minutes 		: [ [ 0 , 0 ] ],
+		address			: "1575 Boulder St, Denver, CO 80211",
+		phone			: "(720) 570-8686",
+		name			: "Lola",
+		drinkSpecials	: "$5-$7 Margaritas, $5 Speciality Cocktails, $7-$9 Shots and Backs, $2 Top Rope, $3 Dos XX, $4 Draft beer, $5 House Wine ",
+		foodSpecials	:  "$4 Chips and Dip, $4 Tacos, $2-$8 Appetizers",
+		image  			: "http://vp.cdn.cityvoterinc.com/g/00-00-00-07-03-61-70361_454491.jpg",
+		description		: "Highbrow Mexican cuisine & imaginative drinks fuel the bustling scene at this cantina with a patio.",
+		website			: "http://www.loladenver.com/"
+	},
+		{
+		day 			: [2, 3, 4, 5],
+		hours 			: [ [16 , 18], [16 , 18], [16 , 18], [16 , 18]],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ]],
+		address			: "1575 Boulder St, Denver, CO 80211",
+		phone			: "(720) 570-8686",
+		name			: "Lola",
+		drinkSpecials	: "$5-$7 Margaritas, $5 Speciality Cocktails, $7-$9 Shots and Backs, $2 Top Rope, $3 Dos XX, $4 Draft beer, $5 House Wine ",
+		foodSpecials	:  "$4 Chips and Dip, $4 Tacos, $2-$8 Appetizers",
+		image  			: "http://vp.cdn.cityvoterinc.com/g/00-00-00-07-03-61-70361_454491.jpg",
+		description		: "Highbrow Mexican cuisine & imaginative drinks fuel the bustling scene at this cantina with a patio.",
+		website			: "http://www.loladenver.com/"
+	},
+		{
+		day 			: [6, 0],
+		hours 			: [ [14 , 17], [14 , 17] ],
+		minutes 		: [ [ 30 , 0 ], [ 30 , 0 ] ],
+		address			: "1575 Boulder St, Denver, CO 80211",
+		phone			: "(720) 570-8686",
+		name			: "Lola",
+		drinkSpecials	: "$5-$7 Margaritas, $5 Speciality Cocktails, $7-$9 Shots and Backs, $2 Top Rope, $3 Dos XX, $4 Draft beer, $5 House Wine ",
+		foodSpecials	:  "$4 Chips and Dip, $4 Tacos, $2-$8 Appetizers",
+		image  			: "http://vp.cdn.cityvoterinc.com/g/00-00-00-07-03-61-70361_454491.jpg",
+		description		: "Highbrow Mexican cuisine & imaginative drinks fuel the bustling scene at this cantina with a patio.",
+		website			: "http://www.loladenver.com/"
+	},
+		{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18] ],
+		minutes 		: [ [ 30 , 30 ], [ 30 , 30 ], [ 30 , 30 ], [ 30 , 30 ], [ 30 , 30 ], [ 30 , 30 ], [ 30 , 30 ] ],
+		address			: "3200 Tejon St, Denver, CO 80211",
+		phone			: "(303) 927-6334",
+		name			: "LoHi SteakBar",
+		drinkSpecials	: "2 for 1 Draft Beers, 2 for 1 Well Cocktails, 2 for 1 Wines by the Glass ",
+		foodSpecials	:  "$1 Oysters on the Half Shell",
+		image  			: "https://cdn0.vox-cdn.com/thumbor/lw0Rk1agajGUdJlGyPwdr56Gdrk=/900x600/cdn0.vox-cdn.com/uploads/chorus_asset/file/2344796/LoHiSteak_8676.0.jpg",
+		description		: "Sleek, happening hangout serving prime cuts of meat & steakhouse standards with custom cocktails.",
+		website			: "http://www.lohisteakbar.com/"
+	},
+		{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ]  ],
+		address			: "3200 Tejon St, Denver, CO 80211",
+		phone			: "(303) 927-6334",
+		name			: "LoHi SteakBar",
+		drinkSpecials	: "2 for 1 Draft Beers, 2 for 1 Well Cocktails, 2 for 1 Wines by the Glass ",
+		foodSpecials	:  "$1 Oysters on the Half Shell",
+		image  			: "https://cdn0.vox-cdn.com/thumbor/lw0Rk1agajGUdJlGyPwdr56Gdrk=/900x600/cdn0.vox-cdn.com/uploads/chorus_asset/file/2344796/LoHiSteak_8676.0.jpg",
+		description		: "Sleek, happening hangout serving prime cuts of meat & steakhouse standards with custom cocktails.",
+		website			: "http://www.lohisteakbar.com/"
+	},
+		{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [15 , 17], [15 , 17], [15 , 17], [15 , 17], [15 , 17], [15 , 17], [15 , 17] ],
+		minutes 		: [ [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ], [ 0 , 30 ]  ],
+		address			: "2227 W 32nd Ave, Denver, CO 80211",
+		phone			: "(720) 668-8506",
+		name			: "Bar Dough",
+		drinkSpecials	: "$4 Bar Dough Lager, $6 House Wines, $7 Spritzes, $7 Bar Dough Punch, $14 Bottomless Bellini",
+		foodSpecials	:  "$4 Olives, $5 Garlic Bread, $5 Arancini, $5 Wings, $5 Chicken Parm Skewers, $5 Bruschetta, $5 Margherita Pizza, $5 Salads, $12-$17 Pizza Specials",
+		image  			: "https://cdn2.vox-cdn.com/thumbor/HKpsegV3jE2RJVJJVW7ptbC5Thc=/0x52:1000x615/1310x737/cdn0.vox-cdn.com/uploads/chorus_image/image/47804809/BARDOUGH_8899e.0.0.jpg",
+		description		: "Modern-rustic Italian spot featuring gourmet wood-fired pizzas, plus pastas, wine, beer & cocktails.",
+		website			: "http://bardoughdenver.com/"
+	},
+		{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18], [16 , 18] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ],[ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ]],
+		address			: "2501 16th St, Denver, CO 80211",
+		phone			: "(303) 433-9734",
+		name			: "Ale House at Amato's",
+		drinkSpecials	: "$3 Wynkoop Beers, $5 Well Drinks, $5 Beer Cocktails, $5 Carboy Wines, $5 Da Luca Prosecco, $5 Los Doc Campo De Borja Rose",
+		foodSpecials	:  "$5.50 Fish Tacos, $5.50 Ale Basted Pretzels, $5.50 Shisito Peppers, $5.50 Carnitas Wontons, $5.50 Crispy Calamari and Pickles, $5.50 Carnitas Wontons, $5.50 Big Wings",
+		image  			: "http://catchcarri.com/wp-content/uploads/2012/04/ale-house-amatos-3.jpg",
+		description		: "Bar & grill offering 40-plus tap beers & a rooftop patio with sweeping views of the city skyline.",
+		website			: "http://www.alehousedenver.com/"
+	},
+		{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24]  ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ],[ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ]],
+		address			: "2501 16th St, Denver, CO 80211",
+		phone			: "(303) 433-9734",
+		name			: "Ale House at Amato's",
+		drinkSpecials	: "$3 Wynkoop Beers, $5 Well Drinks, $5 Beer Cocktails, $5 Carboy Wines, $5 Da Luca Prosecco, $5 Los Doc Campo De Borja Rose",
+		foodSpecials	: "$5.50 Fish Tacos, $5.50 Ale Basted Pretzels, $5.50 Shisito Peppers, $5.50 Carnitas Wontons, $5.50 Crispy Calamari and Pickles, $5.50 Carnitas Wontons, $5.50 Big Wings",
+		image  			: "http://catchcarri.com/wp-content/uploads/2012/04/ale-house-amatos-3.jpg",
+		description		: "Bar & grill offering 40-plus tap beers & a rooftop patio with sweeping views of the city skyline.",
+		website			: "http://www.alehousedenver.com/"
+	},
+			{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18], [15 , 18] ],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ],[ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ]],
+		address			: "2500 Larimer St #100, Denver, CO 80205",
+		phone			: "(303) 292-3553",
+		name			: "Cart Driver",
+		drinkSpecials	: "$5 Prosecco, $5 Negroni",
+		foodSpecials	: "$5 Two Market Oysters",
+		image  			: "http://cart-driver.com/images/ss/cd12.jpg",
+		description		: "Intimate, auto-inspired setting for Southern Italian wood-fired pizza, oysters & cocktails.",
+		website			: "http://www.cart-driver.com/"
+	},
+		{
+		day 			: [0, 1, 2, 3, 4, 5, 6],
+		hours 			: [ [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24], [22 , 24]],
+		minutes 		: [ [ 0 , 0 ], [ 0 , 0 ],[ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ], [ 0 , 0 ]],
+		address			: "2500 Larimer St #100, Denver, CO 80205",
+		phone			: "(303) 292-3553",
+		name			: "Cart Driver",
+		drinkSpecials	: "$5 Fernet and Pils, $5 Manhattan",
+		foodSpecials	: "$5 Daisy Pizza, $5 Sardines and Toast",
+		image  			: "http://cart-driver.com/images/ss/cd12.jpg",
+		description		: "Intimate, auto-inspired setting for Southern Italian wood-fired pizza, oysters & cocktails.",
+		website			: "http://www.cart-driver.com/"
+	},
+
+
 
 
 ];
