@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
-var auth = require('./server/resources/auth');
 var router = require('./server/config/routes.js');
 var bodyParser = require('body-parser');
+var port = process.env.PORT || 3000;
 
 // require and load dotenv
 // require('dotenv').load();
@@ -26,6 +26,6 @@ app.use(function(req, res){
 
 
 //LISTEN ON LOCAL HOST 3000
-app.listen(3000, function() {
-	console.log("Listening on localhost:3000");
+app.listen(port, function() {
+	console.log("Listening on localhost" + port);
 });
