@@ -9,10 +9,12 @@ module.exports = function(sequelize, Sequelize){
 		//minutes to be added to each hour in the same index location
 		minutes 		: Sequelize.ARRAY( Sequelize.ARRAY( Sequelize.INTEGER )),
 		address			: Sequelize.STRING,
+		phone			: Sequelize.STRING,
 		name			: Sequelize.STRING,
 		drinkSpecials	: Sequelize.STRING(1000),
 		foodSpecials	: Sequelize.STRING(1000),
 		image           : Sequelize.STRING,
+		description		: Sequelize.STRING(1000),
 		website			: Sequelize.STRING
 	});
 
