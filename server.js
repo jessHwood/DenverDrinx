@@ -1,4 +1,5 @@
 var express = require('express');
+var cors = require('cors');
 var app = express();
 var router = require('./server/config/routes.js');
 var bodyParser = require('body-parser');
@@ -10,6 +11,7 @@ var port = process.env.PORT || 3000;
 // configure bodyParser (for receiving form data)
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(cors());
 
 app.use(router);
 
