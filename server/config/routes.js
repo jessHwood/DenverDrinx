@@ -12,5 +12,7 @@ router.get('/', function(req, res){
 //bar routes
 router.get('/api/bars/index', barController.index);
 
+router.get('/api/bars/:id', barController.show);
+
 
 module.exports = router;
