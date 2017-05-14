@@ -1,5 +1,13 @@
 # Denver Drinx
 
+Trello:  https://trello.com/b/tVDShFAP/denver-drinx
+
+Wireframes: 
+![wireframe1](/wireframe/image2.JPG)
+![wireframe2](/wireframe/image1.JPG)
+
+
+
 5/9/17
 	Nate- creating server files and outline/ text template for our Postgres DB
 
