@@ -16,9 +16,9 @@ We used SQL for our database as well as Sequelize.  We seeded our database with 
 # Ionic/Front End Build
 
 We used Ionic to build out our front end.  The landing page gives you a list of bars, and from this list you can go into each bar and view the happy hour details.  On the land page you see the bar name, distance to the bar from your current location, and the time left in each happy hour.  If the happy hour hasn't started yet we list the time that the happy hour starts.  
-	* Current location is calculated using the Cordova GeoLocation - listed in miles with precision 2
-	* Still working on the uber functionality - stretch goal
-	* Ionic was very insteresting to style in - an ongoing learning experience!!
+* Current location is calculated using the Cordova GeoLocation - listed in miles with precision 2
+* Still working on the uber functionality - stretch goal
+* Ionic was very insteresting to style in - an ongoing learning experience!!
 
 
 5/9/17
