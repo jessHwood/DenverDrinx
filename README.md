@@ -3,8 +3,8 @@
 Trello:  https://trello.com/b/tVDShFAP/denver-drinx
 
 Wireframes: 
-![wireframe1](wireframe/image2.JPG)
-![wireframe2](wireframe/image1.JPG)
+![wireframe1](./wireframe/image2.JPG)
+![wireframe2](./wireframe/image1.JPG)
 
 
 
