@@ -1,11 +1,5 @@
 # Denver Drinx
 
-Elevator Pitch:
-
-Move to Denver recently and wondering where the best happy hours are?  Maybe you just moved into a new neighborhood and you aren’t familiar with the local watering holes.  In comes Denver Drinx, the app that tells you where to drink and when to get the happiest deals that Denver has to offer.  Upon opening the app it will track your location and list happy hours within your vicinity.  You’ll also be able to view the happy hour time window remaining,  so that you can decide whether or not making the trek is worth the effort.
-
-This app is great for anyone looking to try new spots and save some money by hitting up the drink and food specials around town.  It takes away the thinking and decision making that can make you and your friends bicker when deciding on a meetup spot.  Cheers!
-
 Trello:  https://trello.com/b/tVDShFAP/denver-drinx
 
 Heroku:  https://enigmatic-brushlands-11009.herokuapp.com/ --NOTE: This is only our backend/server.  Our front-end is ran through Ionic and we make API calls to our Heroku. 
@@ -13,6 +7,16 @@ Heroku:  https://enigmatic-brushlands-11009.herokuapp.com/ --NOTE: This is only
 
 ![wireframe1](/wireframe/image2.JPG)
 ![wireframe2](/wireframe/image1.JPG)
+
+### Elevator Pitch:
+
+Move to Denver recently and wondering where the best happy hours are?  Maybe you just moved into a new neighborhood and you aren’t familiar with the local watering holes.  In comes Denver Drinx, the app that tells you where to drink and when to get the happiest deals that Denver has to offer.  Upon opening the app it will track your location and list happy hours within your vicinity.  You’ll also be able to view the happy hour time window remaining,  so that you can decide whether or not making the trek is worth the effort.
+
+This app is great for anyone looking to try new spots and save some money by hitting up the drink and food specials around town.  It takes away the thinking and decision making that can make you and your friends bicker when deciding on a meetup spot.  Cheers!
+
+### User Research:
+
+The answers to these survey questions helped us decide to focus on both drink and food specials within the app as they seem equally important.  It does seem like the uber feature is of interest to ppl so we are going to work on incorporating that.  Also the focus for happy hour is generally current location based so we are going to first seed the database with areas that have the highest population of bars.  The dog friendly piece doesn’t seem to be a big enough factor to use as an initial property in our app.  The list menu is more popular than the map upon opening the app so we are going to start with the listview and then incorporate a map view as a separate tab.  
 
 # Let's Find some Happy Hours!!
 
