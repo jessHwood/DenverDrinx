@@ -1,6 +1,15 @@
 # Denver Drinx
 
+Elevator Pitch:
+
+Move to Denver recently and wondering where the best happy hours are?  Maybe you just moved into a new neighborhood and you aren’t familiar with the local watering holes.  In comes Denver Drinx, the app that tells you where to drink and when to get the happiest deals that Denver has to offer.  Upon opening the app it will track your location and list happy hours within your vicinity.  You’ll also be able to view the happy hour time window remaining,  so that you can decide whether or not making the trek is worth the effort.
+
+This app is great for anyone looking to try new spots and save some money by hitting up the drink and food specials around town.  It takes away the thinking and decision making that can make you and your friends bicker when deciding on a meetup spot.  Cheers!
+
 Trello:  https://trello.com/b/tVDShFAP/denver-drinx
+
+Heroku:  https://enigmatic-brushlands-11009.herokuapp.com/ --NOTE: This is only our backend/server.  Our front-end is ran through Ionic and we make API calls to our Heroku. 
+
 
 ![wireframe1](/wireframe/image2.JPG)
 ![wireframe2](/wireframe/image1.JPG)
