@@ -44,3 +44,15 @@ We used Ionic to build out our front end.  The landing page gives you a list of 
 	4- $ nodemon
 	
 Seed file notes - need to fix barfausto's website
+
+# Contributors
+
+Nate Tutchton: https://github.com/ntutchton
+Cameron Barclay:  https://github.com/CamB17
+Jessica Wood:  https://github.com/jessHwood
+
+# Plans for the Future
+
+We'd like to move this into the new Ionic platform in order to integrate more features as well as update the design.  Next up is seeding all of the Denver neighborhood bars as currently we center the app around the Highlands as well as RiNo. 
+
+
